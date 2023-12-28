@@ -15,7 +15,7 @@ body {
     background: rgb(21,25,20);
 }
 
-.box {
+/* .box {
     width: 80%;
     height: 80vh;
     background: url(/text+img/170191-josemitskij_nacionalnyj_park-ssha-josemiti-josemitskij_vodopad-josemiti_villidzh-7680x4320.jpg) no-repeat;
@@ -38,4 +38,10 @@ h1 {
     letter-spacing: 15px;
     backdrop-filter: blur(1px);
     opacity: 0.2;
+} */
+
+
+select {
+    width: 200px;
+    height: 110px;
 }
