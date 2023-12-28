@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(21,25,20);
+}
+
+.box {
+    width: 80%;
+    height: 80vh;
+    background: url(/text+img/170191-josemitskij_nacionalnyj_park-ssha-josemiti-josemitskij_vodopad-josemiti_villidzh-7680x4320.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    border-radius: 5rem;
+}
+
+h1 {
+    font-family: 'Russo One', sans-serif;
+    background: rgb(0, 0, 0);
+    padding: 300px 500px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 11rem;
+    letter-spacing: 15px;
+    backdrop-filter: blur(1px);
+    opacity: 0.2;
+}
