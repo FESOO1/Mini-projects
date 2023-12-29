@@ -31,17 +31,16 @@ body {
     position: absolute;
     border-radius: 5rem;
     background: red;
-    transition: 0.3s linear;
+    transition: 0.9s ease;
 }
 
 .box:hover::after {
-    animation: 2s linear 1 forwards hover;
+    animation: 400ms linear 1 forwards hover;
 }
 
 @keyframes hover {
     0%{width: 50px;}
-    50%{width: 180px;}
-    100%{width: 50px;}
+    100%{width: 180px;}
 }
 
 h1, h2 {
