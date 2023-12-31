@@ -71,17 +71,17 @@ img {
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
     z-index: -1;
+    transform: scale(20%,20%) translateY(-800px);
 }
 
-/* .menu:hover .extra-links {
+.menu:hover .extra-links {
     animation: 300ms linear 1 forwards hover;
 }
 
 @keyframes hover {
-    from{height: 0;}
-    to{height: 250px;
-    opacity: 1;}
-} */
+    from{transform: scale(20%,20%) translateY(-800px);}
+    to{transform: scaleY(100%) translateY(0px);}
+}
 
 /* .extra-links > a {
     color: rgb(5, 5, 94);
