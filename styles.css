@@ -73,7 +73,7 @@ ul > li > .link-2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgb(30, 22, 14), rgb(21,20,25));
+    background: linear-gradient(rgb(40, 27, 17), rgb(21,20,25));
     border-bottom: 1px solid white;
     border-left: 1px solid white;
     border-right: 1px solid white;
@@ -81,7 +81,7 @@ ul > li > .link-2 {
     border-bottom-left-radius: 0.8rem;
     position: absolute;
     width: 160px;
-    height: 200px;
+    height: 0;
     top: 0;
     margin-top: 80px;
     margin-left: -185px;
@@ -96,14 +96,34 @@ ul > li > .link-2 {
     margin-left: 100px;
 }
 
+/* .menu:hover > .extra-links > a {
+    animation: 400ms linear 1 forwards links;
+    animation-delay: 2s;
+}
+
+@keyframes links {
+    from{display: none;}
+    to{display: flex;}
+} */
+
 .menu:hover .extra-links {
-    opacity: 1;
+    animation: 400ms linear 1 forwards hover;
+}
+
+@keyframes hover {
+    from{height: 0px;}
+    to{height: 200px;
+    opacity: 1;}
 }
 
 a {
-    transition: 0.2s;
+    transition: 200ms;
 }
 
 a:hover {
+    color: orange;
+}
+
+h2:hover {
     color: orange;
 }
