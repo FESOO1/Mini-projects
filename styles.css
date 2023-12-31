@@ -63,14 +63,25 @@ ul > li > .link-2 {
 }
 
 .extra-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: blueviolet;
     position: absolute;
     width: 200px;
     height: 200px;
-    background: white;
     top: 0;
     margin-top: 78px;
     margin-left: -195px;
-    opacity: 0;
+    /* opacity: 0; */
+}
+
+.extra-links > a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 0;
+    margin-left: 100px;
 }
 
 .menu:hover .extra-links {
