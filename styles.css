@@ -32,15 +32,16 @@ h1 {
     align-items: center;
     list-style: none;
     padding: 20px;
-    background: red;
     font-size: 1.3rem;
+    border-radius: 0.8rem;
+    border: 1px solid white;
+    background-color: rgba(255, 173, 92, 0.095);
 }
 
 nav > ul > li > a{
     color: white;
     text-decoration: none;
     font-weight: 900;
-    background: blue;
 }
 
 .menu > h2 {
@@ -59,7 +60,7 @@ a:not(.link-4) {
 }
 
 ul > li > .link-2 {
-    margin-right: 200px;
+    margin-right: 220px;
 }
 
 .extra-links {
@@ -67,14 +68,20 @@ ul > li > .link-2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: blueviolet;
+    background: rgb(21,20,25);
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom-right-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
     position: absolute;
     width: 200px;
     height: 200px;
     top: 0;
     margin-top: 78px;
     margin-left: -195px;
-    /* opacity: 0; */
+    opacity: 0;
+    transition: 0.3s;
 }
 
 .extra-links > a {
@@ -88,7 +95,11 @@ ul > li > .link-2 {
     opacity: 1;
 }
 
-.menu {
-    background: blue;
+a {
+    transition: 0.2s;
+}
+
+a:hover {
+    color: orange;
 }
 
