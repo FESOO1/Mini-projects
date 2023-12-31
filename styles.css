@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap');
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +15,7 @@ body {
 }
 
 .container {
+    font-family: 'Sulphur Point', sans-serif;
     width: 100%;
     height: 10vh;
     display: flex;
@@ -68,18 +73,18 @@ ul > li > .link-2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(21,20,25);
+    background: linear-gradient(rgb(30, 22, 14), rgb(21,20,25));
     border-bottom: 1px solid white;
     border-left: 1px solid white;
     border-right: 1px solid white;
     border-bottom-right-radius: 0.8rem;
     border-bottom-left-radius: 0.8rem;
     position: absolute;
-    width: 200px;
+    width: 160px;
     height: 200px;
     top: 0;
-    margin-top: 78px;
-    margin-left: -195px;
+    margin-top: 80px;
+    margin-left: -185px;
     opacity: 0;
     transition: 0.3s;
 }
@@ -102,4 +107,3 @@ a {
 a:hover {
     color: orange;
 }
-
