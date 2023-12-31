@@ -52,7 +52,7 @@ img {
 
 .extra-links {
     position: absolute;
-    width: 180px;
+    width: 160px;
     height: 250px;
     background: red;
     display: flex;
@@ -61,7 +61,11 @@ img {
     justify-content: center;
     row-gap: 30px;
     margin-top: 320px;
-    margin-left: -40px;
+    margin-left: -27px;
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
+}
+
+.menu:hover .container {
+    border-bottom-right-radius: 0;
 }
