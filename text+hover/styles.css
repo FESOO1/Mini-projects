@@ -24,7 +24,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 0 50px;
-    gap: 70px;
+    gap: 60px;
 }
 
 a {
@@ -91,4 +91,25 @@ img {
 /* .extra-links > a {
     color: rgb(5, 5, 94);
 } */
+
+.link-1:hover {
+    background: rgb(255, 255, 255);
+    padding: 15px 15px;
+    border-radius: 0.8rem;
+    color: black;
+}
+
+.link-2:hover {
+    background: rgb(255, 255, 255);
+    padding: 15px 15px;
+    border-radius: 0.8rem;
+    color: black;
+}
+
+.link-3:hover {
+    background: rgb(255, 255, 255);
+    padding: 15px 15px;
+    border-radius: 0.8rem;
+    color: black;
+}
 
