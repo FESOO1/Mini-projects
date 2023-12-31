@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -13,6 +15,7 @@ body {
 }
 
 .container {
+    font-family: 'Bai Jamjuree', sans-serif;
     width: 500px;
     height: 70px;
     background: rgb(21,20,25);
@@ -27,7 +30,7 @@ body {
 a {
     text-decoration: none;
     color: white;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 a:hover {
@@ -38,6 +41,8 @@ a:hover {
     display: flex;
     align-items: center;
     column-gap: 7px;
+    height: 30px;
+    background: rgb(21,20,25);
 }
 
 .menu:hover img {
@@ -46,6 +51,7 @@ a:hover {
 
 img {
     transition: 200ms;
+    z-index: 2;
 }
 
 /* EXTRA LINKS */
@@ -54,18 +60,30 @@ img {
     position: absolute;
     width: 160px;
     height: 250px;
-    background: red;
+    background: linear-gradient(rgb(21,20,25), rgb(69, 14, 34));
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     row-gap: 30px;
     margin-top: 320px;
-    margin-left: -27px;
+    margin-left: -18px;
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
+    z-index: -1;
 }
 
-.menu:hover .container {
-    border-bottom-right-radius: 0;
+/* .menu:hover .extra-links {
+    animation: 300ms linear 1 forwards hover;
 }
+
+@keyframes hover {
+    from{height: 0;}
+    to{height: 250px;
+    opacity: 1;}
+} */
+
+/* .extra-links > a {
+    color: rgb(5, 5, 94);
+} */
+
