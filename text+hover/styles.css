@@ -30,3 +30,17 @@ a {
 a:hover {
     color: orange;
 }
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+}
+
+.menu:hover img {
+    transform: rotateZ(180deg);
+}
+
+img {
+    transition: 200ms;
+}
