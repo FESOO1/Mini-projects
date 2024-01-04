@@ -76,10 +76,14 @@ img {
     /* transform: scale(20%,20%) translateY(-800px); */
 }
 
-.menu:hover .extra-links {
+.hidden {
     opacity: 1;
 }
 
+/* .menu:hover .extra-links {
+    opacity: 1;
+}
+ */
 /* .menu:hover .extra-links {
     animation: 300ms linear 1 forwards hover;
 }
