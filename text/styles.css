@@ -8,18 +8,20 @@ body {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    background: linear-gradient(90deg,black 50%, white 50%);
 }
 
-.welcome-text {
-    height: 20vh;
-    width: 30%;
+div {
+    margin-left: 67px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: red;
-    font-size: 4rem;
+    font-size: 7rem;
     text-align: center;
+    background: url(/170191-josemitskij_nacionalnyj_park-ssha-josemiti-josemitskij_vodopad-josemiti_villidzh-7680x4320.jpg) no-repeat;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
