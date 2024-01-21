@@ -1,4 +1,4 @@
-degbody {
+body {
     background: black;
 }
 
@@ -14,4 +14,11 @@ degbody {
     border-right: 20px solid white;
     border-bottom: 90px solid white; 
     transform: rotateZ(90deg) scale(300%, 300%);
+    animation: 5s linear infinite hover;
+    transition: 1s linear;
+}
+
+@keyframes hover {
+    from{transform: rotateZ(0deg);}
+    to{transform: rotateZ(90deg) scale(300%, 300%) rotateZ(360deg);}
 }
