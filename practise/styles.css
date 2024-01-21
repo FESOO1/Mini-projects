@@ -5,7 +5,7 @@ body {
 .triangle {
     top: 50%;
     left: 50%;
-    position: absolute;
+    position: fixed;
     border-top-right-radius: 4rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -14,11 +14,11 @@ body {
     border-right: 20px solid white;
     border-bottom: 90px solid white; 
     transform: rotateZ(90deg) scale(300%, 300%);
-    animation: 5s linear infinite hover;
+    animation: 15s linear infinite hover;
     transition: 1s linear;
 }
 
 @keyframes hover {
     from{transform: rotateZ(0deg);}
-    to{transform: rotateZ(90deg) scale(300%, 300%) rotateZ(360deg);}
+    to{transform: rotateZ(90deg) scale(6600%, 6600%) rotateZ(360deg);}
 }
