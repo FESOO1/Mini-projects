@@ -1,0 +1,16 @@
+body {
+    background: black;
+}
+
+.triangle {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-top-right-radius: 4rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 4rem;
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    border-bottom: 90px solid white;
+}
