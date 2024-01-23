@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(21,20,25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-container {
+    width: 600px;
+    height: 300px;
+    background: white;
+    border-radius: 10rem;
+    box-shadow: inset 0 0 29px rgba(0,0,0,0.6);
+    padding: 10px;
+}
+
+.switch {
+    width: 280px;
+    height: 280px;
+    border-radius: 10rem;
+    background: rgb(21, 20, 25);
+}
