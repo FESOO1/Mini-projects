@@ -33,12 +33,12 @@ body {
 
 
 .switcher {
-    background: rgb(91,90,95);
+    background: black;
 }
 
 .switchbtn {
     margin-left: 300px;
-    background: rgb(91,90,95);
+    background: black;
 }
 
 .container {
