@@ -29,3 +29,12 @@ body {
     border-radius: 10rem;
     background: rgb(21, 20, 25);
 }
+
+
+.switcher {
+    background: rgb(91,90,95);
+}
+
+.switchbtn {
+    margin-left: 300px;
+}
