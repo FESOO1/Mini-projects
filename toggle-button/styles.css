@@ -17,7 +17,7 @@ body {
 .toggle-container {
     width: 600px;
     height: 300px;
-    background: white;
+    background: rgb(190,190,190);
     border-radius: 10rem;
     box-shadow: inset 0 0 29px rgba(0,0,0,0.6);
     padding: 10px;
@@ -28,6 +28,7 @@ body {
     height: 280px;
     border-radius: 10rem;
     background: rgb(21, 20, 25);
+    transition: 200ms;
 }
 
 
@@ -37,4 +38,9 @@ body {
 
 .switchbtn {
     margin-left: 300px;
+    background: rgb(91,90,95);
+}
+
+.container {
+    background: white;
 }
