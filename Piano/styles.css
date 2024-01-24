@@ -96,6 +96,35 @@ body {
     border-radius: 0 0 3px 3px;
 }
 
+.key.black--key5::after {
+    content: '';
+    width: 45px;
+    height: 190px;
+    left: 323px;
+    position: absolute;
+    background: black;
+    border-radius: 0 0 3px 3px;
+}
+
+.key.black--key6::after {
+    content: '';
+    width: 45px;
+    height: 190px;
+    left: 437px;
+    position: absolute;
+    background: black;
+    border-radius: 0 0 3px 3px;
+}
+
+.key.black--key7::after {
+    content: '';
+    width: 45px;
+    height: 190px;
+    left: 495px;
+    position: absolute;
+    background: black;
+    border-radius: 0 0 3px 3px;
+}
 
 @media (max-width: 1220px) {
     .piano {
