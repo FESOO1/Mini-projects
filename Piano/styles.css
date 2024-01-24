@@ -52,3 +52,13 @@ body {
 .key:active {
     background: linear-gradient(180deg, white, rgb(200,200,200));
 }
+
+.key.black--key::after {
+    content: '';
+    width: 53px;
+    height: 210px;
+    position: absolute;
+    background: black;
+    transform: translateX(-26.5px);
+    border-radius: 0 0 2px 2px;
+}
