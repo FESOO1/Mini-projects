@@ -56,21 +56,41 @@ body {
     background: linear-gradient(180deg, white, rgb(200,200,200));
 }
 
-.key.black--key::after {
+.key.black--key1::after {
     content: '';
-    width: 50px;
-    height: 210px;
+    width: 45px;
+    height: 190px;
     position: absolute;
     background: black;
-    left: 32px;
+    left: 35px;
     border-radius: 0 0 3px 3px;
 }
 
-.key.black--key:last-of-type::after {
+.key.black--key2::after {
     content: '';
-    width: 50px;
-    height: 210px;
-    left: 200px;
+    width: 45px;
+    height: 190px;
+    left: 93px;
+    position: absolute;
+    background: black;
+    border-radius: 0 0 3px 3px;
+}
+
+.key.black--key3::after {
+    content: '';
+    width: 45px;
+    height: 190px;
+    position: absolute;
+    background: black;
+    left: 208px;
+    border-radius: 0 0 3px 3px;
+}
+
+.key.black--key4::after {
+    content: '';
+    width: 45px;
+    height: 190px;
+    left: 265px;
     position: absolute;
     background: black;
     border-radius: 0 0 3px 3px;
