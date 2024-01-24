@@ -32,12 +32,15 @@ body {
 }
 
 .keys {
-    display: flex;
-    justify-content: center;
+    position: relative;
     border-radius: 5px;
     width: 1150px;
     height: 280px;
     background: rgb(0, 0, 0);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .key {
@@ -45,8 +48,8 @@ body {
     height: 275px;
     background: white;
     float: left;
-    margin: 2px;
     border-radius: 0 0 2px 2px;
+    margin: 2.2px;
 }
 
 .key:active {
@@ -59,6 +62,39 @@ body {
     height: 210px;
     position: absolute;
     background: black;
-    transform: translateX(-26.5px);
+    float: left;
+    left: 32px;
+    /* transform: translateX(-26.5px); */
     border-radius: 0 0 2px 2px;
+}
+
+
+@media (max-width: 1220px) {
+    .piano {
+        width: 800px;
+    }
+    .keys {
+        width: 750px;
+    }
+}
+
+@media (max-width: 830px) {
+    .piano {
+        width: 510px;
+    }
+    .keys {
+        width: 460px;
+    }
+}
+
+@media (max-width: 530px) {
+    .piano {
+        width: 330px;
+    }
+    .keys {
+        width: 280px;
+    }
+    .key {
+        width: 51.6px;
+    }
 }
